@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F41B69328F7408700FB26A8 /* weatherappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F41B69228F7408700FB26A8 /* weatherappApp.swift */; };
+		2F41B69528F7408700FB26A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F41B69428F7408700FB26A8 /* ContentView.swift */; };
+		2F41B69728F7408800FB26A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F41B69628F7408800FB26A8 /* Assets.xcassets */; };
+		2F41B69A28F7408800FB26A8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F41B69928F7408800FB26A8 /* Preview Assets.xcassets */; };
+		2F41B6A828F7420300FB26A8 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F41B6A728F7420300FB26A8 /* Api.swift */; };
+		2F41B6AA28F7424900FB26A8 /* API+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F41B6A928F7424900FB26A8 /* API+extension.swift */; };
+		2F41B6AC28F743BE00FB26A8 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F41B6AB28F743BE00FB26A8 /* NetworkManager.swift */; };
+		2F41B6AE28F7486300FB26A8 /* weatherresponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F41B6AD28F7486300FB26A8 /* weatherresponse.swift */; };
+		2F41B6B028F7489A00FB26A8 /* weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F41B6AF28F7489A00FB26A8 /* weather.swift */; };
+		2F41B6B228F748AB00FB26A8 /* weatherdetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F41B6B128F748AB00FB26A8 /* weatherdetail.swift */; };
+		2F41B6B428F748B700FB26A8 /* dailyweather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F41B6B328F748B700FB26A8 /* dailyweather.swift */; };
+		2F41B6B628F748C700FB26A8 /* temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F41B6B528F748C700FB26A8 /* temperature.swift */; };
+		2F41B6B828F754CF00FB26A8 /* cityviewmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F41B6B728F754CF00FB26A8 /* cityviewmodel.swift */; };
+		2F41B6BA28F76B2C00FB26A8 /* lottiview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F41B6B928F76B2C00FB26A8 /* lottiview.swift */; };
+		2F41B6BD28F76BFE00FB26A8 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 2F41B6BC28F76BFE00FB26A8 /* Lottie */; };
+		2F41B6BF28F771A200FB26A8 /* MenuHeaderview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F41B6BE28F771A200FB26A8 /* MenuHeaderview.swift */; };
+		2F41B6C128F7744300FB26A8 /* CityNameview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F41B6C028F7744300FB26A8 /* CityNameview.swift */; };
+		2F41B6C328F7756C00FB26A8 /* TodayWeatherview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F41B6C228F7756C00FB26A8 /* TodayWeatherview.swift */; };
+		2F41B6C528F7799900FB26A8 /* HourlyWeatherview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F41B6C428F7799900FB26A8 /* HourlyWeatherview.swift */; };
+		2F41B6C728F77E5600FB26A8 /* dailyweatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F41B6C628F77E5600FB26A8 /* dailyweatherView.swift */; };
+		2F41B6C928F7815100FB26A8 /* cityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F41B6C828F7815100FB26A8 /* cityView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F41B68F28F7408700FB26A8 /* weatherapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weatherapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F41B69228F7408700FB26A8 /* weatherappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weatherappApp.swift; sourceTree = "<group>"; };
+		2F41B69428F7408700FB26A8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2F41B69628F7408800FB26A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F41B69928F7408800FB26A8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2F41B6A728F7420300FB26A8 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		2F41B6A928F7424900FB26A8 /* API+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API+extension.swift"; sourceTree = "<group>"; };
+		2F41B6AB28F743BE00FB26A8 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		2F41B6AD28F7486300FB26A8 /* weatherresponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weatherresponse.swift; sourceTree = "<group>"; };
+		2F41B6AF28F7489A00FB26A8 /* weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weather.swift; sourceTree = "<group>"; };
+		2F41B6B128F748AB00FB26A8 /* weatherdetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weatherdetail.swift; sourceTree = "<group>"; };
+		2F41B6B328F748B700FB26A8 /* dailyweather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dailyweather.swift; sourceTree = "<group>"; };
+		2F41B6B528F748C700FB26A8 /* temperature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = temperature.swift; sourceTree = "<group>"; };
+		2F41B6B728F754CF00FB26A8 /* cityviewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cityviewmodel.swift; sourceTree = "<group>"; };
+		2F41B6B928F76B2C00FB26A8 /* lottiview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lottiview.swift; sourceTree = "<group>"; };
+		2F41B6BE28F771A200FB26A8 /* MenuHeaderview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuHeaderview.swift; sourceTree = "<group>"; };
+		2F41B6C028F7744300FB26A8 /* CityNameview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityNameview.swift; sourceTree = "<group>"; };
+		2F41B6C228F7756C00FB26A8 /* TodayWeatherview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayWeatherview.swift; sourceTree = "<group>"; };
+		2F41B6C428F7799900FB26A8 /* HourlyWeatherview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyWeatherview.swift; sourceTree = "<group>"; };
+		2F41B6C628F77E5600FB26A8 /* dailyweatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dailyweatherView.swift; sourceTree = "<group>"; };
+		2F41B6C828F7815100FB26A8 /* cityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cityView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F41B68C28F7408700FB26A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F41B6BD28F76BFE00FB26A8 /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F41B68628F7408700FB26A8 = {
+			isa = PBXGroup;
+			children = (
+				2F41B69128F7408700FB26A8 /* weatherapp */,
+				2F41B69028F7408700FB26A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F41B69028F7408700FB26A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F41B68F28F7408700FB26A8 /* weatherapp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F41B69128F7408700FB26A8 /* weatherapp */ = {
+			isa = PBXGroup;
+			children = (
+				2F41B6A628F741B000FB26A8 /* Networking */,
+				2F41B6A328F7412000FB26A8 /* ViewModels */,
+				2F41B6A228F7411800FB26A8 /* View */,
+				2F41B6A128F7410500FB26A8 /* Models */,
+				2F41B69228F7408700FB26A8 /* weatherappApp.swift */,
+				2F41B69428F7408700FB26A8 /* ContentView.swift */,
+				2F41B69628F7408800FB26A8 /* Assets.xcassets */,
+				2F41B69828F7408800FB26A8 /* Preview Content */,
+			);
+			path = weatherapp;
+			sourceTree = "<group>";
+		};
+		2F41B69828F7408800FB26A8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2F41B69928F7408800FB26A8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2F41B6A128F7410500FB26A8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2F41B6AD28F7486300FB26A8 /* weatherresponse.swift */,
+				2F41B6AF28F7489A00FB26A8 /* weather.swift */,
+				2F41B6B128F748AB00FB26A8 /* weatherdetail.swift */,
+				2F41B6B328F748B700FB26A8 /* dailyweather.swift */,
+				2F41B6B528F748C700FB26A8 /* temperature.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2F41B6A228F7411800FB26A8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2F41B6B928F76B2C00FB26A8 /* lottiview.swift */,
+				2F41B6BE28F771A200FB26A8 /* MenuHeaderview.swift */,
+				2F41B6C028F7744300FB26A8 /* CityNameview.swift */,
+				2F41B6C228F7756C00FB26A8 /* TodayWeatherview.swift */,
+				2F41B6C428F7799900FB26A8 /* HourlyWeatherview.swift */,
+				2F41B6C628F77E5600FB26A8 /* dailyweatherView.swift */,
+				2F41B6C828F7815100FB26A8 /* cityView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2F41B6A328F7412000FB26A8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2F41B6B728F754CF00FB26A8 /* cityviewmodel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2F41B6A628F741B000FB26A8 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				2F41B6A728F7420300FB26A8 /* Api.swift */,
+				2F41B6A928F7424900FB26A8 /* API+extension.swift */,
+				2F41B6AB28F743BE00FB26A8 /* NetworkManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F41B68E28F7408700FB26A8 /* weatherapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F41B69D28F7408800FB26A8 /* Build configuration list for PBXNativeTarget "weatherapp" */;
+			buildPhases = (
+				2F41B68B28F7408700FB26A8 /* Sources */,
+				2F41B68C28F7408700FB26A8 /* Frameworks */,
+				2F41B68D28F7408700FB26A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = weatherapp;
+			packageProductDependencies = (
+				2F41B6BC28F76BFE00FB26A8 /* Lottie */,
+			);
+			productName = weatherapp;
+			productReference = 2F41B68F28F7408700FB26A8 /* weatherapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F41B68728F7408700FB26A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					2F41B68E28F7408700FB26A8 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 2F41B68A28F7408700FB26A8 /* Build configuration list for PBXProject "weatherapp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F41B68628F7408700FB26A8;
+			packageReferences = (
+				2F41B6BB28F76BFE00FB26A8 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			productRefGroup = 2F41B69028F7408700FB26A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F41B68E28F7408700FB26A8 /* weatherapp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F41B68D28F7408700FB26A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F41B69A28F7408800FB26A8 /* Preview Assets.xcassets in Resources */,
+				2F41B69728F7408800FB26A8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F41B68B28F7408700FB26A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F41B6C528F7799900FB26A8 /* HourlyWeatherview.swift in Sources */,
+				2F41B6AA28F7424900FB26A8 /* API+extension.swift in Sources */,
+				2F41B6B828F754CF00FB26A8 /* cityviewmodel.swift in Sources */,
+				2F41B6C128F7744300FB26A8 /* CityNameview.swift in Sources */,
+				2F41B6B428F748B700FB26A8 /* dailyweather.swift in Sources */,
+				2F41B6B628F748C700FB26A8 /* temperature.swift in Sources */,
+				2F41B6B228F748AB00FB26A8 /* weatherdetail.swift in Sources */,
+				2F41B6C728F77E5600FB26A8 /* dailyweatherView.swift in Sources */,
+				2F41B6BA28F76B2C00FB26A8 /* lottiview.swift in Sources */,
+				2F41B6AE28F7486300FB26A8 /* weatherresponse.swift in Sources */,
+				2F41B6A828F7420300FB26A8 /* Api.swift in Sources */,
+				2F41B6AC28F743BE00FB26A8 /* NetworkManager.swift in Sources */,
+				2F41B6C328F7756C00FB26A8 /* TodayWeatherview.swift in Sources */,
+				2F41B69528F7408700FB26A8 /* ContentView.swift in Sources */,
+				2F41B6B028F7489A00FB26A8 /* weather.swift in Sources */,
+				2F41B6C928F7815100FB26A8 /* cityView.swift in Sources */,
+				2F41B6BF28F771A200FB26A8 /* MenuHeaderview.swift in Sources */,
+				2F41B69328F7408700FB26A8 /* weatherappApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2F41B69B28F7408800FB26A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2F41B69C28F7408800FB26A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F41B69E28F7408800FB26A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"weatherapp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mahesh.com.weatherapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F41B69F28F7408800FB26A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"weatherapp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mahesh.com.weatherapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F41B68A28F7408700FB26A8 /* Build configuration list for PBXProject "weatherapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F41B69B28F7408800FB26A8 /* Debug */,
+				2F41B69C28F7408800FB26A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F41B69D28F7408800FB26A8 /* Build configuration list for PBXNativeTarget "weatherapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F41B69E28F7408800FB26A8 /* Debug */,
+				2F41B69F28F7408800FB26A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2F41B6BB28F76BFE00FB26A8 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2F41B6BC28F76BFE00FB26A8 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2F41B6BB28F76BFE00FB26A8 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2F41B68728F7408700FB26A8 /* Project object */;
+}
